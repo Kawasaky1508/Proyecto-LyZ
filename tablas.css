@@ -1,0 +1,52 @@
+body{font-family: Arial;}
+h1{
+	font-family: "roboto";
+	font size: "30";
+	color: #C9CED0;
+	text-align: center;
+}
+table, td, th{
+	border: 1px solid rgba(0, 0, 0, .2);
+}
+table{
+	border-collapse: collapse;
+	width: 500px;
+	text-align: center;
+	margin: 20px auto;
+}
+
+th, td{
+	padding: 10px 20px;
+}
+th{
+	background: #C9CED0;
+	color: #FFF;
+}
+tr:hover{
+	background: #C9CED0;
+}
+.menu{
+	list-style: none;
+	padding: 0;
+	background: #092327;
+	width: 90%;
+	max-width: 1000%;
+	margin: 20px auto;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 20px;
+}
+
+.menu li a:hover{
+	background: #ef8354;
+}
+

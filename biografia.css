@@ -1,0 +1,65 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: calibri light;
+}
+.contenedor{
+	background: #85C1E9;
+	width: 80%;
+	margin: auto;
+	position: relative;
+}
+header{
+	height: 400px;
+	background-image: url(https://robbreport.mx/wp-content/uploads/2024/07/historia-ferdinand-porsche.webp);
+	background-position: center;
+	background-size: cover;
+}
+main{
+	background: #FFFFFF;
+	padding: 20px 30px;
+	border: 2px solid #CACFD2;
+}
+main .foto{
+	width: 150px;
+	height: 210px;
+	background-color: #85C1E9;
+	border-radius: 50%;
+	margin: -90px 0 20px 0;
+	border: 6px solid #FFFFFF;
+}
+main .foto img{
+	width: 100%;
+	border-radius: 50%;
+}
+footer{
+	background: #85C1E9;
+	height: 50px;
+}
+.menu{
+	list-style: none;
+	padding: 0;
+	background: #092327;
+	width: 90%;
+	max-width: 1000%;
+	margin: 20px auto;
+	position: relative;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 20px;
+}
+
+.menu li a:hover{
+	background: #ef8354;
+}

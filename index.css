@@ -1,0 +1,43 @@
+body{
+	font-family: comic sans;
+	background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Newporschecrest.jpg/800px-Newporschecrest.jpg);
+	background-repeat: repeat;
+}
+h1, p{
+	color: #000000;
+	text-align: center;
+}
+div{
+	width: 60%;
+	height: 500px;
+	background: #FFFFFF;
+	margin: auto;
+}
+.textoRemarcado{
+	font-weight: bold;
+	font-size: 18px;
+}
+.menu{
+	list-style: none;
+	padding: 0;
+	background: #092327;
+	width: 90%;
+	max-width: 1000%;
+	margin: 20px auto;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 20px;
+}
+
+.menu li a:hover{
+	background: #ef8354;
+}
