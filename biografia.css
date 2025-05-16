@@ -8,6 +8,7 @@ body{
 .contenedor{
 	background: #85C1E9;
 	width: 80%;
+	height: 150px;
 	margin: auto;
 	position: relative;
 }
